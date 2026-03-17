@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO-SEM 최적화 프로젝트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .section-title {
+            position: relative;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #1f2937;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 3px;
+            background-color: #1e3a8a;
+        }
+        .progress-bar-bg { background-color: #e5e7eb; border-radius: 9999px; overflow: hidden; height: 0.75rem; }
+        .progress-bar-fill { height: 100%; border-radius: 9999px; }
+    </style>
+</head>
+<body class="p-4 md:p-8 text-gray-800">
+
+    <div class="max-w-6xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden mb-10">
+        
+        <!-- Header -->
+        <header class="bg-slate-900 text-white p-8 md:p-10">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end">
+                <div>
+                    <div class="inline-block bg-blue-600 text-xs font-bold px-3 py-1 rounded-full mb-4 tracking-wider">마케팅본부 핵심 과제</div>
+                    <h1 class="text-3xl md:text-4xl font-bold mb-3 tracking-tight">SEO-SEM 최적화 프로젝트</h1>
+                    <p class="text-slate-300 text-lg">타겟 키워드 검색결과 노출 점유율(1~10위) 확대 및 SEO 최적화 플랜</p>
+                </div>
+                <div class="mt-4 md:mt-0 text-left md:text-right text-sm text-slate-400 space-y-1">
+                    <p><strong>프로젝트 기간:</strong> 26.01.05 ~ </p>
+                    <p><strong>작성:</strong> 퍼포먼스 마케팅팀</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="p-8 md:p-10 space-y-12">
+            
+            <!-- 1. Executive Summary -->
+            <section>
+                <h2 class="section-title">1. Executive Summary</h2>
+                <div class="space-y-5">
+                    
+                    <!-- 방향성 -->
+                    <div class="bg-blue-50/70 p-5 rounded-xl border border-blue-100 shadow-sm text-gray-700">
+                        <h3 class="font-bold text-lg text-blue-900 mb-3 flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            SEO 최적화 방향성
+                        </h3>
+                        <ul class="space-y-3 text-sm md:text-base">
+                            <li class="flex items-start">
+                                <span class="inline-block bg-gray-200 text-gray-600 font-bold px-2 py-0.5 rounded text-xs mr-3 mt-0.5 w-14 text-center flex-shrink-0">AS-IS</span>
+                                <span class="text-gray-500">오가닉 트래픽, 색인수 등 단순 총량 확대 목표로 내/외부 변수에 따른 대응 및 성과 측정 한계</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-block bg-blue-600 text-white font-bold px-2 py-0.5 rounded text-xs mr-3 mt-0.5 w-14 text-center flex-shrink-0">TO-BE</span>
+                                <span><strong>'타겟 키워드' 중심 운영 방법 및 목표 구체화</strong>하여 검색 노출 점유율 확대 (1차), 타겟 키워드/유입 상위 페이지 기반 CTR, CVR 개선 (2차)</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 주요 목표 -->
+                    <div class="bg-indigo-50/70 p-5 rounded-xl border border-indigo-100 shadow-sm text-gray-700">
+                        <h3 class="font-bold text-lg text-indigo-900 mb-3 flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                            주요 목표
+                        </h3>
+                        <ul class="space-y-2 text-sm md:text-base">
+                            <li class="flex items-start">
+                                <span class="text-indigo-500 mr-2 font-bold mt-0.5">·</span>
+                                <span><strong>'26년 2Q (6월 말까지):</strong> 통합 검색결과(SEO+Paid) 1~10순위 이내 노출 점유율을 <strong>다나와 60%, 에누리 40%</strong>까지 확대</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-indigo-500 mr-2 font-bold mt-0.5">·</span>
+                                <span><strong>3Q ~ :</strong> 타겟 키워드, 유입 상위 페이지 중심 태그/스키마, 콘텐츠 개선 등 제안 → <strong>유입 CTR, 구매이동 CVR 개선으로 확대</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 진행 계획 -->
+                    <div class="bg-emerald-50/70 p-5 rounded-xl border border-emerald-100 shadow-sm text-gray-700">
+                        <h3 class="font-bold text-lg text-emerald-900 mb-4 flex items-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            진행 계획
+                        </h3>
+                        <div class="space-y-4 text-sm md:text-base">
+                            
+                            <!-- 1번 계획 -->
+                            <div class="flex items-start bg-white p-4 rounded-lg border border-emerald-50/50 shadow-sm">
+                                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm mr-4 mt-0.5 border border-emerald-200">1</div>
+                                <div class="w-full">
+                                    <div class="flex items-center flex-wrap gap-x-2 gap-y-2 mb-2">
+                                        <span class="font-bold text-gray-800 text-base">주간 급상승 트렌드 키워드 발송</span>
+                                        <span class="font-normal text-emerald-600 text-sm">(3/23~, 매주 월요일 발송 예정)</span>
+                                        <span class="px-2.5 py-1 rounded text-xs font-bold bg-gray-100 text-gray-600 border border-gray-200 ml-auto flex items-center">
+                                            활용부서: CM, 마케팅
+                                        </span>
+                                    </div>
+                                    <p class="text-gray-600 mt-1 leading-relaxed">네이버 쇼핑 트렌드 기반 [기회/라이징/시즈널/이슈 등] 키워드 리포트 발송 <br><span class="text-emerald-700 font-semibold">→ 이슈 키워드 파악, 카테고리 정비, 콘텐츠 작성 등에 활용</span></p>
+                                </div>
+                            </div>
+                            
+                            <!-- 2번 계획 -->
+                            <div class="flex items-start bg-white p-4 rounded-lg border border-emerald-50/50 shadow-sm">
+                                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm mr-4 mt-0.5 border border-emerald-200">2</div>
+                                <div class="w-full">
+                                    <div class="flex items-center flex-wrap gap-x-2 gap-y-2 mb-2">
+                                        <span class="font-bold text-gray-800 text-base">타겟 키워드 통합 대시보드 오픈</span>
+                                        <span class="font-normal text-emerald-600 text-sm">(4/6~ 예정)</span>
+                                        <span class="px-2.5 py-1 rounded text-xs font-bold bg-gray-100 text-gray-600 border border-gray-200 ml-auto flex items-center">
+                                            활용부서: 마케팅
+                                        </span>
+                                    </div>
+                                    <p class="text-gray-600 mt-1 leading-relaxed">목표 달성률, 키워드별 순위 변동, 주요 인사이트 등 성과 확인 <br><span class="text-emerald-700 font-semibold">→ 목표 달성 현황, 타겟 키워드 성과 및 점검에 활용</span></p>
+                                </div>
+                            </div>
+
+                            <!-- 3번 계획 -->
+                            <div class="flex items-start bg-white p-4 rounded-lg border border-emerald-50/50 shadow-sm">
+                                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm mr-4 mt-0.5 border border-emerald-200">3</div>
+                                <div class="w-full">
+                                    <div class="flex items-center flex-wrap gap-x-2 gap-y-2 mb-2">
+                                        <span class="font-bold text-gray-800 text-base">SEO 유입 상위 데이터 공유</span>
+                                        <span class="font-normal text-emerald-600 text-sm">(4/6~ 예정)</span>
+                                        <span class="px-2.5 py-1 rounded text-xs font-bold bg-gray-100 text-gray-600 border border-gray-200 ml-auto flex items-center">
+                                            활용부서: CM, 서비스, 마케팅
+                                        </span>
+                                    </div>
+                                    <p class="text-gray-600 mt-1 leading-relaxed">다나와/에누리 매체 유입 상위 키워드, URL 공유 <br><span class="text-emerald-700 font-semibold">→ 유입 카테고리, 콘텐츠 등 페이지 정비에 활용</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 2. 핵심 KPI 달성 현황 -->
+            <section>
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 gap-2">
+                    <h2 class="section-title mb-0">2. 순위 구간별 노출 점유율 현황 (1~10위 이내)</h2>
+                    <span class="text-xs text-gray-600 bg-gray-200 px-3 py-1.5 rounded-md font-medium inline-block">* 기준: 3월 2주차 현황 / Organic + Paid 통합 기준</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- 다나와 -->
+                    <div class="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
+                        <div class="flex justify-between items-center mb-5">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">다나와 (Danawa)</h3>
+                                <p class="text-sm text-gray-500 mt-1">타겟 키워드: 1,423개 (3월 2주차 기준)</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="block text-4xl font-extrabold text-blue-600 tracking-tight">46%</span>
+                                <span class="text-lg font-bold text-gray-600">목표 60%</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar-bg mb-6 h-3">
+                            <div class="progress-bar-fill relative bg-blue-600" style="width: 76.6%;"></div>
+                        </div>
+                        <div class="bg-gray-50 p-5 rounded-xl text-sm border border-gray-100 space-y-3">
+                            <div class="flex justify-between items-center"><span class="text-gray-600 flex items-center"><span class="w-2 h-2 rounded-full bg-blue-400 mr-2"></span>1~3위 구간:</span> <span class="font-bold text-gray-800 text-base">25% <span class="text-lg font-bold text-gray-600 ml-1">(목표 28%)</span></span></div>
+                            <div class="flex justify-between items-center"><span class="text-gray-600 flex items-center"><span class="w-2 h-2 rounded-full bg-blue-300 mr-2"></span>4~10위 구간:</span> <span class="font-bold text-gray-800 text-base">21% <span class="text-lg font-bold text-gray-600 ml-1">(목표 32%)</span></span></div>
+                            <div class="flex justify-between items-center pt-2 border-t border-gray-200"><span class="text-gray-600 font-semibold">순위 미진입:</span> <span class="font-bold text-gray-600 text-base">29% <span class="text-lg font-bold text-gray-600 ml-1">(목표 18%)</span></span></div>
+                        </div>
+                    </div>
+
+                    <!-- 에누리 -->
+                    <div class="border border-gray-200 rounded-2xl p-6 bg-white shadow-sm">
+                        <div class="flex justify-between items-center mb-5">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">에누리 (Enuri)</h3>
+                                <p class="text-sm text-gray-500 mt-1">타겟 키워드: 359개 (3월 2주차 기준)</p>
+                            </div>
+                            <div class="text-right">
+                                <span class="block text-4xl font-extrabold text-green-600 tracking-tight">24%</span>
+                                <span class="text-lg font-bold text-gray-600">목표 40%</span>
+                            </div>
+                        </div>
+                        <div class="progress-bar-bg mb-6 h-3">
+                            <div class="progress-bar-fill relative bg-green-500" style="width: 60%;"></div>
+                        </div>
+                        <div class="bg-gray-50 p-5 rounded-xl text-sm border border-gray-100 space-y-3">
+                            <div class="flex justify-between items-center"><span class="text-gray-600 flex items-center"><span class="w-2 h-2 rounded-full bg-green-400 mr-2"></span>1~3위 구간:</span> <span class="font-bold text-gray-800 text-base">16% <span class="text-lg font-bold text-gray-600 ml-1">(목표 19%)</span></span></div>
+                            <div class="flex justify-between items-center"><span class="text-gray-600 flex items-center"><span class="w-2 h-2 rounded-full bg-green-300 mr-2"></span>4~10위 구간:</span> <span class="font-bold text-gray-800 text-base">8% <span class="text-lg font-bold text-gray-600 ml-1">(목표 21%)</span></span></div>
+                            <div class="flex justify-between items-center pt-2 border-t border-gray-200"><span class="text-gray-600 font-semibold">순위 미진입:</span> <span class="font-bold text-gray-600 text-base">64% <span class="text-lg font-bold text-gray-600 ml-1">(목표 46%)</span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. SEO-SEM 통합 보완 전략 -->
+            <section>
+                <h2 class="section-title">3. SEO-SEM 키워드 통합 운영 플랜</h2>
+                <div class="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+                    <table class="w-full text-left text-sm md:text-base">
+                        <thead class="bg-slate-50 border-b border-gray-200">
+                            <tr>
+                                <th class="py-4 px-6 font-bold text-gray-700 w-1/4">운영 방향</th>
+                                <th class="py-4 px-6 font-bold text-gray-700 w-1/3">대상 키워드</th>
+                                <th class="py-4 px-6 font-bold text-gray-700">전략적 액션 (Action)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100">
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="py-5 px-6 font-semibold text-blue-700 bg-blue-50/40">SEO → SEM 이관</td>
+                                <td class="py-5 px-6 text-gray-600 leading-relaxed">높은 경쟁도나 기술적 한계로 상위 노출이 어려운 키워드</td>
+                                <td class="py-5 px-6 text-gray-800 leading-relaxed">유입 공백 최소화를 위해 <strong>SEM(검색광고)으로 순위권 내 즉각 대응</strong> 및 트래픽 확보</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="py-5 px-6 font-semibold text-green-700 bg-green-50/40">SEM → SEO 이관</td>
+                                <td class="py-5 px-6 text-gray-600 leading-relaxed">고비용-저효율 키워드 (CPC, CPA 과다)</td>
+                                <td class="py-5 px-6 text-gray-800 leading-relaxed">PPC 비용 효율화를 위해 <strong>SEO 상위 노출에 집중 투자</strong>. 실무진 판단 하에 입찰가 조정/중단</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="py-5 px-6 font-semibold text-purple-700 bg-purple-50/40">SEO + SEM 통합</td>
+                                <td class="py-5 px-6 text-gray-600 leading-relaxed">SEO와 SEM에 동시 노출되는 고관여/타겟 키워드</td>
+                                <td class="py-5 px-6 text-gray-800 leading-relaxed">SEO 노출 위치 및 CTR 데이터를 기반으로 <strong>광고 입찰 순위 및 노출 우선순위 유기적 조정</strong> (점유율 극대화)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 4. 정기 실행 프로세스 -->
+            <section>
+                <h2 class="section-title">4. 정기 실행 프로세스 (Operation Process)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Weekly -->
+                    <div class="border-t-4 border-blue-600 bg-white shadow-sm p-8 rounded-b-xl rounded-t-sm">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-xl font-bold text-gray-800">단기 성과 기반 운영 최적화</h3>
+                            <span class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded uppercase tracking-wider">Weekly</span>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 text-[15px]">
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">타겟 키워드별 노출 순위 및 상승/하락 변화 점검</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">PPC 효율성 주간 점검 (CPC, 클릭아웃 CPA 등)</span>
+                            </li>
+                             <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-50 text-blue-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">트렌드 키워드 운영 활용 (검색광고, 콘텐츠 기획, 카테고리 정비 등)</span>
+                            </li>                           
+                        </ul>
+                    </div>
+
+                    <!-- Monthly -->
+                    <div class="border-t-4 border-indigo-600 bg-white shadow-sm p-8 rounded-b-xl rounded-t-sm">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-xl font-bold text-gray-800">중장기 전략 및 인사이트 도출</h3>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded uppercase tracking-wider">Monthly</span>
+                        </div>
+                        <ul class="space-y-4 text-gray-600 text-[15px]">
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-50 text-indigo-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">월간 결과값 바탕 타겟 키워드 재배치 (운영 로직 기반)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-50 text-indigo-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">시즌/이슈 반영 타겟 키워드 리스트 업데이트</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-50 text-indigo-500 flex items-center justify-center mr-3 mt-0.5">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </span>
+                                <span class="leading-relaxed">협업 부서(CM, 서비스 등) 온사이트 개선 인사이트 공유</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. 안정화 이후 플랜 고도화 (3Q~) -->
+            <section>
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-6 gap-2">
+                    <h2 class="section-title mb-0">5. 안정화 이후 플랜 고도화 (3Q~)</h2>
+                    <span class="text-sm text-gray-600 font-medium">유입 극대화 이후 <strong class="text-blue-600">사용자 경험(UX) 및 CVR 개선</strong> 연계</span>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Action 1: Content -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                        <div class="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-5 text-blue-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">1. 질적 콘텐츠 강화</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            사용자 검색 의도(Intent)가 반영된 양질의 콘텐츠 확보 및 SEO 친화적 구조 적용 (향후 AEO/GEO 대응 관점 포함)
+                        </p>
+                    </div>
+
+                    <!-- Action 2: T&D -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                        <div class="w-12 h-12 rounded-lg bg-green-50 flex items-center justify-center mb-5 text-green-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">2. T&D 및 카테고리 최적화</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            상위 노출 키워드의 Meta Title/Description, 스니펫 점검. 시즌/이슈 수요 증가 예상 검색어 활용 <strong>신규 카테고리 신설 제안</strong>.
+                        </p>
+                    </div>
+
+                    <!-- Action 3: CVR -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                        <div class="w-12 h-12 rounded-lg bg-purple-50 flex items-center justify-center mb-5 text-purple-600">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">3. 랜딩페이지 CVR 최적화</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            상위 유입 키워드 및 해당 URL의 랜딩 페이지 품질 점검. 전환율(CVR) 병목 구간 확인 및 <strong>개선 포인트 도출하여 유관부서 제안</strong>.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
